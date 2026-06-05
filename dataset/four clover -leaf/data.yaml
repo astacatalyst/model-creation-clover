@@ -2,8 +2,8 @@ train: ../train/images
 val: ../valid/images
 test: ../test/images
 
-nc: 2
-names: ['Four-Leaf', 'Three-Leaf']
+nc: 1
+names: ['Four-Leaf']
 
 roboflow:
   workspace: priyaastakun-gmail-com
