@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['4-Leaf-Clovers', '5-Leaf-Clovers']
+
+roboflow:
+  workspace: priyaastakun-gmail-com
+  project: clover-pduau-cy1ff
+  version: 1
+  license: Public Domain
+  url: https://universe.roboflow.com/priyaastakun-gmail-com/clover-pduau-cy1ff/dataset/1
