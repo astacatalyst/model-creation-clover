@@ -1,9 +1,9 @@
 from ultralytics import YOLO
 
-model = YOLO("best.pt")
+model = YOLO("yolov8n.pt")
 
-results = model.predict(
-    source="data.yaml",
+model.train(
+    data="dataset/four clover -leaf/data.yaml",
     epochs = 50,
     imgsz = 640
 )
